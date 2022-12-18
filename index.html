@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="img/Favicon.svg" type="image/x-icon">
+    <title>blanko - Разработка веб-дизайна</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container d-flex align-items-center justify-content-between">
+            <a href="index.html" class="header__logo">
+                <img src="img/logo.svg" alt="Логотип Бланко">
+            </a>
+            <nav class="header__navigation">
+                <ul class="header__list d-flex">
+                    <li class="header__item">
+                        <a href="#projects">
+                            Наши проекты
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#advantages">
+                            Преимущества
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#about">
+                            О нас
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#footer">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="mail:KotovskiiIV21@st.ithub.ru" class="header__btn btn hvr-sweep-to-right">
+                Заказать макет
+            </a>
+            <button class="header__btn_mobile">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="mobile">
+                <nav class="header__navigation_mobile align-items-center justify-content-between">
+                    <ul class="header__list d-flex justify-content-between">
+                        <li class="header__item">
+                            <a href="#projects">
+                                Наши проекты
+                            </a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#advantages">
+                                Преимущества
+                            </a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#about">
+                                О нас
+                            </a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#footer">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="mailto:KotovskiiIV21@st.ithub.ru" class="header__btn btn hvr-sweep-to-right">
+                        Заказать макет
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="main-screen blanko" id="main-screen">
+            <div class="container d-flex align-items-center">
+                <div class="blanko-wrapper">
+                    <h1 class="blanko-wrapper__title">
+                        Blanko template
+                    </h1>
+                    <p class="blanko-wrapper__descr">
+                        Лучший сервис по разработке веб-дизайна. На рынке №1
+                    </p>
+                    <div class="blanko-wrapper-btns blanko-btns">
+                        <a href="mailto:KotovskiiIV21@st.ithub.ru" class="blanko-btns__purchase btn hvr-sweep-to-right">
+                            Заказать макет
+                        </a>
+                        <a href="#projects" class="blanko-btns__other btn hvr-sweep-to-right">
+                            Другие работы
+                        </a>
+                    </div>
+                </div>
+                <div class="blanko-img"></div>
+            </div>
+        </section>
+        <section class="advantages" id="advantages">
+            <div class="container d-flex justify-content-between">
+                <div class="advanatges-block advan-wrap d-flex align-items-center">
+                    <div class="advan-wrap">
+                        <h3 class="advan-wrap__title">
+                            Скорость
+                        </h3>
+                        <p class="advan-wrap__desc">
+                            У нашей команды большой опыт работы. И большая скорость
+                        </p>
+                    </div>
+                </div>
+                <div class="advanatges-block advan-wrap d-flex align-items-center">
+                    <div class="advan-wrap">
+                        <h3 class="advan-wrap__title">
+                            Дизайн
+                        </h3>
+                        <p class="advan-wrap__desc">
+                            С каждым годом мы подстраиваемся под популряные решения в сфере веб-дизайна.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="advantages-block">
+                    <p class="advantages-block__desc user">
+                        На рынке blanko зарекомендовало себя лучше всех. Мы гарантируем качество и скорость!
+                    </p>
+                    <div class="user-wrap user-block d-flex align-items-center">
+                        <img class="user-wrap__img" src="img/user.jfif" alt="Фото">
+                        <div class="user-block">
+                            <h4 class="user-block__name">
+                                Илья Котовский
+                            </h4>
+                            <span class="user-block__post">
+                                Director @Company
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="advantages-block"></div>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <div class="container">
+                <h2 class="projects__title">
+                    Наши работы
+                </h2>
+                <ul class="projects__list d-flex">
+                    <li class="projects__item hvr-float-shadow">
+                        <img src="img/projects-img1.jpg" alt="Проект">
+                        <h4>
+                            Проект 1
+                        </h4>
+                    </li>
+                    <li class="projects__item hvr-float-shadow">
+                        <img src="img/projects-img2.jpg" alt="Проект">
+                        <h4>
+                            Проект 2
+                        </h4>
+                    </li>
+                    <li class="projects__item hvr-float-shadow">
+                        <img src="img/projects-img3.jpg" alt="Проект">
+                        <h4>
+                            Проект 3
+                        </h4>
+                    </li>
+                    <li class="projects__item hvr-float-shadow">
+                        <img src="img/projects-img4.jpg" alt="Проект">
+                        <h4>
+                            Проект 4
+                        </h4>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="container d-flex justify-content-between align-items-center">
+            <img src="img/logo.svg" alt="Логотип Бланко">
+            <a class="footer__email" href="mailto:KotovskiiIV21@st.ithub.ru">
+                KotovskiiIV21@st.ithub.ru
+            </a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
